@@ -1,0 +1,328 @@
+\doxysection{anvector$<$ t $>$ Class Template Reference}
+\label{classanvector}\index{anvector$<$ t $>$@{anvector$<$ t $>$}}
+
+
+Collaboration diagram for anvector$<$ t $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classanvector__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ anvector} (int cap=1)
+\item 
+\textbf{ $\sim$anvector} ()
+\item 
+t \& \textbf{ operator[$\,$]} (int index)
+\item 
+void \textbf{ push\+\_\+back} (t item)
+\item 
+t \textbf{ pop\+\_\+back} ()
+\item 
+void \textbf{ erase} (int iterator)
+\item 
+void \textbf{ erase} (int iterator1, int iterator2)
+\item 
+void \textbf{ insert} (int iterator, t element)
+\item 
+t \& \textbf{ operator=} (const \textbf{ anvector} \&other)
+\item 
+t \& \textbf{ operator=} (const \textbf{ anvector} \&\&other)
+\item 
+int \textbf{ Size} ()
+\item 
+int \textbf{ Capacity} ()
+\item 
+t $\ast$ \textbf{ begin} ()
+\item 
+t $\ast$ \textbf{ end} ()
+\item 
+int \textbf{ resize} ()
+\item 
+void \textbf{ clear} ()
+\item 
+bool \textbf{ empty} ()
+\item 
+bool \textbf{ operator$<$} (const \textbf{ anvector}$<$ t $>$ \&Other)
+\item 
+bool \textbf{ operator$>$} (const \textbf{ anvector}$<$ t $>$ \&Other)
+\item 
+bool \textbf{ operator==} (const \textbf{ anvector}$<$ t $>$ \&Other)
+\item 
+\textbf{ anvector} (t $\ast$arr, int n)
+\item 
+\textbf{ anvector} (\textbf{ anvector} \&other)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classanvector_afe04df7c1ccb78dea34545ec98dce9d6}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!anvector@{anvector}}
+\index{anvector@{anvector}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{anvector()\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+\textbf{ anvector}$<$ t $>$\textbf{ \+::anvector} (\begin{DoxyParamCaption}\item[{int}]{cap = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_a3d6ebd1765694c24685d83828d99913e}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!````~anvector@{$\sim$anvector}}
+\index{````~anvector@{$\sim$anvector}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{$\sim$anvector()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+\textbf{ anvector}$<$ t $>$\+::$\sim$\textbf{ anvector} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_a106c1be80dac01da89ef2805e819a1dd}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!anvector@{anvector}}
+\index{anvector@{anvector}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{anvector()\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+\textbf{ anvector}$<$ t $>$\textbf{ \+::anvector} (\begin{DoxyParamCaption}\item[{t $\ast$}]{arr,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_ac815b995ec20ce18639a23a0c013d732}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!anvector@{anvector}}
+\index{anvector@{anvector}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{anvector()\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+\textbf{ anvector}$<$ t $>$\textbf{ \+::anvector} (\begin{DoxyParamCaption}\item[{\textbf{ anvector}$<$ t $>$ \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classanvector_a6bc71a94ea73d4476a144ce743c00caf}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!begin@{begin}}
+\index{begin@{begin}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{begin()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+t $\ast$ \textbf{ anvector}$<$ t $>$\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{classanvector_a6bc71a94ea73d4476a144ce743c00caf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_aa236b1280e7bac9bb65df0293cdac5eb}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!Capacity@{Capacity}}
+\index{Capacity@{Capacity}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{Capacity()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+int \textbf{ anvector}$<$ t $>$\+::\+Capacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{classanvector_aa236b1280e7bac9bb65df0293cdac5eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_ad56bbcc88606fb26e10a4b358b1d0c0a}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!clear@{clear}}
+\index{clear@{clear}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{clear()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+void \textbf{ anvector}$<$ t $>$\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{classanvector_ad56bbcc88606fb26e10a4b358b1d0c0a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_a3569d4009e3927c86e6815b4f0f61ce4}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!empty@{empty}}
+\index{empty@{empty}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{empty()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+bool \textbf{ anvector}$<$ t $>$\+::empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classanvector_a3569d4009e3927c86e6815b4f0f61ce4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_ae88ee22ca421d31785cdf8b424f27523}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!end@{end}}
+\index{end@{end}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{end()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+t $\ast$ \textbf{ anvector}$<$ t $>$\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classanvector_ae88ee22ca421d31785cdf8b424f27523_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_a61ea1d1fd65cdcadb4f11527179499dc}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!erase@{erase}}
+\index{erase@{erase}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{erase()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+void \textbf{ anvector}$<$ t $>$\+::erase (\begin{DoxyParamCaption}\item[{int}]{iterator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classanvector_a61ea1d1fd65cdcadb4f11527179499dc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{classanvector_a61ea1d1fd65cdcadb4f11527179499dc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_a5aa9878cd0cabce5c556b4d7b7e08ed1}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!erase@{erase}}
+\index{erase@{erase}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{erase()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+void \textbf{ anvector}$<$ t $>$\+::erase (\begin{DoxyParamCaption}\item[{int}]{iterator1,  }\item[{int}]{iterator2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classanvector_a5aa9878cd0cabce5c556b4d7b7e08ed1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_a920f655bb933c2093484506fbfb5ac62}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!insert@{insert}}
+\index{insert@{insert}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{insert()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+void \textbf{ anvector}$<$ t $>$\+::insert (\begin{DoxyParamCaption}\item[{int}]{iterator,  }\item[{t}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classanvector_a920f655bb933c2093484506fbfb5ac62_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{classanvector_a920f655bb933c2093484506fbfb5ac62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_a0206142a6d1d9a52e0a1975e7db6cb8b}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{operator$<$()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+bool \textbf{ anvector}$<$ t $>$\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \textbf{ anvector}$<$ t $>$ \&}]{Other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_a49ecc2595d303ff15d521e2da768670b}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{operator=()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+t \& \textbf{ anvector}$<$ t $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ anvector}$<$ t $>$ \&\&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_a9754e15cdfbd4f7686fb9187e9e15a25}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{operator=()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+t \& \textbf{ anvector}$<$ t $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ anvector}$<$ t $>$ \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_aa0c840e9ed27029f3891cb56c39aebd3}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{operator==()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+bool \textbf{ anvector}$<$ t $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \textbf{ anvector}$<$ t $>$ \&}]{Other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_a5df8bd5bbfca1f3fb39a0c9db39ba25f}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{operator$>$()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+bool \textbf{ anvector}$<$ t $>$\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \textbf{ anvector}$<$ t $>$ \&}]{Other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_af720cec86efd79fe5cc5ecd1ca3a08c2}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!operator[]@{operator[]}}
+\index{operator[]@{operator[]}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{operator[]()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+t \& \textbf{ anvector}$<$ t $>$\+::operator[$\,$] (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\label{classanvector_a2c26093d354a94695117695af9a50f8f}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!pop\_back@{pop\_back}}
+\index{pop\_back@{pop\_back}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{pop\_back()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+t \textbf{ anvector}$<$ t $>$\+::pop\+\_\+back (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{classanvector_a2c26093d354a94695117695af9a50f8f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{classanvector_a2c26093d354a94695117695af9a50f8f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_a8e65835e75399872bee98be9f9946b66}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{push\_back()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+void \textbf{ anvector}$<$ t $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{t}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{classanvector_a8e65835e75399872bee98be9f9946b66_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_ad6ab339a10434c23e70df0055943033b}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!resize@{resize}}
+\index{resize@{resize}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{resize()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+int \textbf{ anvector}$<$ t $>$\+::resize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classanvector_ad6ab339a10434c23e70df0055943033b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classanvector_ae4b63379a76c8d78b5fb4c18e7e54970}} 
+\index{anvector$<$ t $>$@{anvector$<$ t $>$}!Size@{Size}}
+\index{Size@{Size}!anvector$<$ t $>$@{anvector$<$ t $>$}}
+\doxysubsubsection{Size()}
+{\footnotesize\ttfamily template$<$class t $>$ \\
+int \textbf{ anvector}$<$ t $>$\+::\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classanvector_ae4b63379a76c8d78b5fb4c18e7e54970_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ main1.\+cpp}\end{DoxyCompactItemize}

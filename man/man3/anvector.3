@@ -1,0 +1,130 @@
+.TH "anvector< t >" 3 "Fri Dec 23 2022" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+anvector< t >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBanvector\fP (int cap=1)"
+.br
+.ti -1c
+.RI "\fB~anvector\fP ()"
+.br
+.ti -1c
+.RI "t & \fBoperator[]\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBpush_back\fP (t item)"
+.br
+.ti -1c
+.RI "t \fBpop_back\fP ()"
+.br
+.ti -1c
+.RI "void \fBerase\fP (int iterator)"
+.br
+.ti -1c
+.RI "void \fBerase\fP (int iterator1, int iterator2)"
+.br
+.ti -1c
+.RI "void \fBinsert\fP (int iterator, t element)"
+.br
+.ti -1c
+.RI "t & \fBoperator=\fP (const \fBanvector\fP &other)"
+.br
+.ti -1c
+.RI "t & \fBoperator=\fP (const \fBanvector\fP &&other)"
+.br
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.ti -1c
+.RI "int \fBCapacity\fP ()"
+.br
+.ti -1c
+.RI "t * \fBbegin\fP ()"
+.br
+.ti -1c
+.RI "t * \fBend\fP ()"
+.br
+.ti -1c
+.RI "int \fBresize\fP ()"
+.br
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.ti -1c
+.RI "bool \fBempty\fP ()"
+.br
+.ti -1c
+.RI "bool \fBoperator<\fP (const \fBanvector\fP< t > &Other)"
+.br
+.ti -1c
+.RI "bool \fBoperator>\fP (const \fBanvector\fP< t > &Other)"
+.br
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBanvector\fP< t > &Other)"
+.br
+.ti -1c
+.RI "\fBanvector\fP (t *arr, int n)"
+.br
+.ti -1c
+.RI "\fBanvector\fP (\fBanvector\fP &other)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<class t > \fBanvector\fP< t >\fB::anvector\fP (int cap = \fC1\fP)\fC [inline]\fP"
+
+.SS "template<class t > \fBanvector\fP< t >::~\fBanvector\fP ()\fC [inline]\fP"
+
+.SS "template<class t > \fBanvector\fP< t >\fB::anvector\fP (t * arr, int n)\fC [inline]\fP"
+
+.SS "template<class t > \fBanvector\fP< t >\fB::anvector\fP (\fBanvector\fP< t > & other)\fC [inline]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "template<class t > t * \fBanvector\fP< t >::begin ()\fC [inline]\fP"
+
+.SS "template<class t > int \fBanvector\fP< t >::Capacity ()\fC [inline]\fP"
+
+.SS "template<class t > void \fBanvector\fP< t >::clear ()\fC [inline]\fP"
+
+.SS "template<class t > bool \fBanvector\fP< t >::empty ()\fC [inline]\fP"
+
+.SS "template<class t > t * \fBanvector\fP< t >::end ()\fC [inline]\fP"
+
+.SS "template<class t > void \fBanvector\fP< t >::erase (int iterator)\fC [inline]\fP"
+
+.SS "template<class t > void \fBanvector\fP< t >::erase (int iterator1, int iterator2)\fC [inline]\fP"
+
+.SS "template<class t > void \fBanvector\fP< t >::insert (int iterator, t element)\fC [inline]\fP"
+
+.SS "template<class t > bool \fBanvector\fP< t >::operator< (const \fBanvector\fP< t > & Other)\fC [inline]\fP"
+
+.SS "template<class t > t & \fBanvector\fP< t >::operator= (const \fBanvector\fP< t > && other)\fC [inline]\fP"
+
+.SS "template<class t > t & \fBanvector\fP< t >::operator= (const \fBanvector\fP< t > & other)\fC [inline]\fP"
+
+.SS "template<class t > bool \fBanvector\fP< t >::operator== (const \fBanvector\fP< t > & Other)\fC [inline]\fP"
+
+.SS "template<class t > bool \fBanvector\fP< t >::operator> (const \fBanvector\fP< t > & Other)\fC [inline]\fP"
+
+.SS "template<class t > t & \fBanvector\fP< t >::operator[] (int index)\fC [inline]\fP"
+
+.SS "template<class t > t \fBanvector\fP< t >::pop_back ()\fC [inline]\fP"
+
+.SS "template<class t > void \fBanvector\fP< t >::push_back (t item)\fC [inline]\fP"
+
+.SS "template<class t > int \fBanvector\fP< t >::resize ()\fC [inline]\fP"
+
+.SS "template<class t > int \fBanvector\fP< t >::Size ()\fC [inline]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.
